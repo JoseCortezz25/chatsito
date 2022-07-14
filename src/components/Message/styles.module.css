@@ -1,0 +1,50 @@
+.message{
+  display: grid;
+  font-size: 2rem;
+  position: relative;
+  /* border: 1px solid red; */
+}
+
+.message div{
+  font-size: 1.7rem;
+  padding: 10px;
+  width: max-content;
+  max-width: 85%;
+  /* border: 1px solid gray; */
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.sender {
+  background-color: var(--blue-bg-color);
+  justify-self: right;
+  color: var(--white-color);
+  border-top-right-radius: 0px !important;
+}
+
+.receiver{
+  background-color: var(--white-color);
+  justify-self: left;
+  color: black;
+  border-top-left-radius: 0px !important;
+}
+
+.select {
+  background-color: transparent;
+  border: 1px solid gray;
+  padding: 5px;
+  /* position: absolute; */
+  color: black;
+}
+
+.select.sender {
+  left: 0;
+}
+
+.select.receiver {
+  right: 0;
+}
+
+.messageHour {
+  font-size: 1.2rem;
+}

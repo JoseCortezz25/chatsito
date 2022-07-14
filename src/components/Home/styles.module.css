@@ -1,0 +1,63 @@
+.home {
+  background-color: var(--white2-color);
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  /* background-color: var(--white-color); */
+  /* border: 10px solid var(--black-dark-color); */
+  width: 80%;
+  height: 80%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 5rem 4rem;
+  text-align: center;
+
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.information h1 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 7rem;
+  margin-top: 50px;
+}
+
+.information p {
+  /* margin: 20px 0; */
+  text-align: start;
+}
+
+.enterBox {
+  width: 100%;
+  display: flex;
+  margin: 15px 0px 15px 0px;
+}
+
+.information input,
+button {
+  height: 40px;
+}
+
+.information input {
+  border: 2px solid var(--black-dark-color);
+  margin-right: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.information button {
+  background-color: var(--black-dark-color);
+  border: none;
+  padding: 0px 14px;
+  cursor: pointer;
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-weight: bold;
+}

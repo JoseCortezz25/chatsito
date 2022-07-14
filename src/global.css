@@ -1,14 +1,33 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat&family=Shadows+Into+Light&display=swap');
+:root{
+  --bg-color: #121f3d;
+}
+
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html {
+html{
   font-size: 62.5%;
 }
 
-body {
-  font-family: sans-serif;
+body{
+  font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
+}
+
+ol,ul{
+  list-style: none;
+}
+
+:root {
+  --blue-bg-color: rgb(47,124,250);
+  --gray-bg-color: rgb(246,248,252);
+  --white-color: #FFFFFF;
+  --white2-color: #F2F2F2;
+  --gray-dk-color: rgb(89,89,89);
+  --gray-bg2-color: rgb(250,252,255);
+  --black-dark-color: rgb(33,33,33);
 }
